@@ -33,5 +33,5 @@ const ul = document.querySelector('ul');
 const ulList = [...ul.children];
 
 sortList(ulList);
-getEmployees(ulList);
+const employeesList = getEmployees(ulList);
 // fds fs
